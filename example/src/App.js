@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'qute-d'
+import { AutoScroll } from 'qute-d'
 import 'qute-d/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <AutoScroll speed={'speed'} />
 }
 
 export default App

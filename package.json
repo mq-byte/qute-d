@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "git@github.com:JoeyQiuYang/qute-d.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://www.npmjs.com/package/qute-d"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",

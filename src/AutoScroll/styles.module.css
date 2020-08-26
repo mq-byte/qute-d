@@ -14,7 +14,7 @@
 }
 .autoContent{
   width: fit-content;
-  animation-name: lrt;
+  animation-name: ltr;
   animation-duration: 30s;
   animation-play-state: running;
   animation-iteration-count: infinite;

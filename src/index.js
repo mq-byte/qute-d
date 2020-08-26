@@ -1,1 +1,1 @@
-export {default as AutoScroll} from './AutoScroll'
+export { default as AutoScroll } from './AutoScroll'

@@ -1,9 +1,33 @@
 /* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+@keyframes ltr {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-100%); }
+}
+@keyframes rtl {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+.autoBox {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.autoContent{
+  width: fit-content;
+  animation-name: lrt;
+  animation-duration: 30s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.firstChild{
+  float: left;
+  width: fit-content;
+  display: flex;
+}
+.secondChild{
+  float: left;
+  width: fit-content;
+  margin-right: -100%;
+  display: flex;
 }

@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { AutoScroll } from '.'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(AutoScroll).toBeTruthy()
   })
 })

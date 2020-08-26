@@ -1,12 +1,12 @@
 {
-  "name": "qute-d",
+  "name": "@JoeyQiuYang/qute-d",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "JoeQiuYang",
   "license": "MIT",
   "repository": "git@github.com:JoeyQiuYang/qute-d.git",
   "publishConfig": {
-    "registry": "https://www.npmjs.com/package/qute-d"
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",

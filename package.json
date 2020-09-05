@@ -5,6 +5,7 @@
   "author": "JoeQiuYang",
   "license": "MIT",
   "repository": "git@github.com:JoeyQiuYang/qute-d.git",
+  "homepage": "https://joeyqiuyang.github.io/qute-d/",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },

@@ -1,33 +1,43 @@
 /* add css module styles here (optional) */
 @keyframes ltr {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-100%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
+
 @keyframes rtl {
-  from { transform: translateX(-100%); }
-  to   { transform: translateX(0); }
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 .autoBox {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
-.autoContent{
-  width: fit-content;
+.autoContent {
+  width: max-content;
   animation-name: ltr;
   animation-duration: 30s;
   animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  overflow: hidden;
 }
-.firstChild{
+.firstChild {
   float: left;
-  width: fit-content;
+  width: max-content;
   display: flex;
 }
-.secondChild{
+.secondChild {
   float: left;
-  width: fit-content;
+  width: max-content;
   margin-right: -100%;
   display: flex;
 }

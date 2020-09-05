@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
-import './auto.css'
 
-const AutoScroll = ({ children }) => {
+const Button = ({ children }) => {
   return (
     <div className={styles.autoBox}>
       <div className={styles.autoContent}>
@@ -12,4 +11,4 @@ const AutoScroll = ({ children }) => {
     </div>
   )
 }
-export default AutoScroll
+export default Button

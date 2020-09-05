@@ -1,1 +1,2 @@
-export { default as AutoScroll } from './AutoScroll'
+import './initcss/init.css'
+export { default as AutoScroll } from './components/AutoScroll'

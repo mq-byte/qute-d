@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 
 const component = ({ children }) => {
   return (
-    <div className={styles.autoBox}>
+    <div className={styles.component}>
       <div>component</div>
     </div>
   )

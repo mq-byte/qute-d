@@ -50,6 +50,9 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "lint-staged": "^10.3.0",
+    "chalk": "^4.1.0",
+    "husky": "^4.3.0",
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
@@ -60,7 +63,15 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "chalk": "^4.1.0"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{app,caviar.config,src}/**/*.{js,less,json,css}": [
+      "yarn lint",
+      "git add"
+    ]
   }
 }

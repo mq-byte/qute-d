@@ -3,7 +3,7 @@ const { Command } = require('commander')
 const program = new Command()
 const version = require('../package').version
 program.version(version)
-const { createComponents } = require('./create');
+const { createComponents } = require('./create')
 
 program
   .option('-v', 'output the version number')

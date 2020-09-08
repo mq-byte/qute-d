@@ -23,7 +23,7 @@
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
-    "lint": "eslint .",
+    "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom --passWithNoTests",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
@@ -70,7 +70,7 @@
   },
   "lint-staged": {
     "{app,caviar.config,src}/**/*.{js,less,json,css}": [
-      "yarn lint",
+      "yarn test:lint",
       "git add"
     ]
   }

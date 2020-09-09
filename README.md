@@ -9,11 +9,7 @@
 npm install --save qute-d
 ```
 
-## Usage
-
-```jsx
-
-```
+[在线文档](https://joeyqiuyang.github.io/qute-d/)
 
 ## License
 

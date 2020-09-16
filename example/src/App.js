@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AutoScroll, concurrencyFetch } from 'qute-d'
+import { AutoScroll, concurrencyFetch, TextMore } from 'qute-d'
 import 'qute-d/dist/index.css'
 
 const createPromise = (val,time)=>{
@@ -27,14 +27,17 @@ concurrencyFetch([
 
 
 const App = () => {
-  return <div style={{
-    background: 'yellow'
-  }}>
+  return <div >
     <AutoScroll speed={'speed'} >
       <div className='aaa'>1</div>
       <div className='aaa'>2</div>
       <div className='aaa'>3</div>
     </AutoScroll>
+
+    <TextMore width={'200px'}>
+      Note that the development build is not optimized.
+      To create a production build, use yarn build.
+    </TextMore>
   </div>
 }
 
